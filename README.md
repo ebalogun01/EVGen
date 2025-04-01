@@ -1,5 +1,9 @@
 # EVGen: Adversarial Networks for Learning Electric Vehicle Charging Loads and Hidden Representations
 
+Paper (published at ICML 2021): https://arxiv.org/abs/2108.03762
+
+Note: training data was proprietary unfortunately so we cannot give a completely reproducible repo. However, we have included trained models in this repo.
+
 ---
 
 ## Creating Conda Enviroment
