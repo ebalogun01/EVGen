@@ -1,0 +1,47 @@
+{
+  "data_mean": 4,
+  "data_stddev": 1.25,
+  "g_input_size": 80,
+  "encoding_type": "continuous",
+  "c_dim": 8,
+  "d_learning_rate": 0.0001,
+  "g_learning_rate": 0.0001,
+  "lr_schedule": {
+    "use": false,
+    "freq": 1200,
+    "factor": 0.5
+  },
+  "sgd_momentum": 0.9,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.999,
+  "weight_decay": 0,
+  "weight_clip": 0.01,
+  "gp_reg": 1,
+  "sc_reg": 0.4,
+  "resume": {
+    "status": false,
+    "resume_from": 1000
+  },
+  "num_epochs": 5000,
+  "plot_interval": 5000,
+  "save_plots": true,
+  "save_interval": 500,
+  "print_interval": 500,
+  "test_interval": 500,
+  "tensorboard_interval": 150,
+  "d_steps": 4,
+  "g_steps": 1,
+  "samples_per_batch": 256,
+  "num_test_samples": 1024,
+  "results_dir": "Results\\dev",
+    "data_file": ["Data/chargeDataCleanedWithSessionID.npy"],
+  "network_module": "gan",
+  "fake_training": {
+    "use": false,
+    "sample_rate": 96,
+    "end_time": 1
+  },
+  "torch_seed": 0,
+  "np_seed": 0,
+  "notes": "First test with proprietary data"
+}
